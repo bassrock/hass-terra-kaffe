@@ -1,0 +1,179 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "This device is already configured",
+      "reauth_successful": "Re-authentication was successful"
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to Terra Kaffe. Please check your internet connection.",
+      "invalid_auth": "Invalid email or password",
+      "invalid_device": "Invalid device selected",
+      "unknown": "Unexpected error occurred"
+    },
+    "step": {
+      "device": {
+        "data": {
+          "device_id": "Device"
+        },
+        "description": "Select the Terra Kaffe machine you want to add.",
+        "title": "Select device"
+      },
+      "reauth_confirm": {
+        "data": {
+          "password": "Password",
+          "username": "Email"
+        },
+        "description": "Your Terra Kaffe session has expired. Please re-enter your credentials.",
+        "title": "Re-authenticate"
+      },
+      "user": {
+        "data": {
+          "password": "Password",
+          "username": "Email"
+        },
+        "description": "Enter your Terra Kaffe account credentials. These are the same credentials you use in the Terra Kaffe mobile app.",
+        "title": "Terra Kaffe login"
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "locked": {
+        "name": "Locked"
+      },
+      "preground_selected": {
+        "name": "Pre-ground coffee"
+      },
+      "screen_saver_enabled": {
+        "name": "Screen saver"
+      },
+      "wifi_enabled": {
+        "name": "WiFi"
+      },
+      "drip_tray_needs_cleaning": {
+        "name": "Drip tray needs cleaning"
+      }
+    },
+    "button": {
+      "power": {
+        "name": "Power"
+      }
+    },
+    "sensor": {
+      "bean_level": {
+        "name": "Bean level"
+      },
+      "bootloader_version": {
+        "name": "Bootloader version"
+      },
+      "brewing_progress": {
+        "name": "Brewing progress"
+      },
+      "brewing_status": {
+        "name": "Brewing status"
+      },
+      "care_status": {
+        "name": "Care status"
+      },
+      "clean_brew_unit": {
+        "name": "Brew unit cleaning"
+      },
+      "coffee_order": {
+        "name": "Coffee order"
+      },
+      "current_espresso_profile": {
+        "name": "Espresso profile"
+      },
+      "descale_status": {
+        "name": "Descale"
+      },
+      "device_id": {
+        "name": "Device ID"
+      },
+      "device_status": {
+        "name": "Status"
+      },
+      "drink_history": {
+        "name": "Drink history"
+      },
+      "drink_order_error": {
+        "name": "Drink order error"
+      },
+      "drink_order_received": {
+        "name": "Drink order received"
+      },
+      "espresso_shots": {
+        "name": "Espresso shots"
+      },
+      "firmware_version": {
+        "name": "Firmware version"
+      },
+      "friendly_name": {
+        "name": "Friendly name"
+      },
+      "grind_setting": {
+        "name": "Grind setting"
+      },
+      "language": {
+        "name": "Language"
+      },
+      "maintenance_performed": {
+        "name": "Maintenance performed"
+      },
+      "model": {
+        "name": "Model"
+      },
+      "os_version": {
+        "name": "OS version"
+      },
+      "profile_version": {
+        "name": "Profile version"
+      },
+      "screen_brightness": {
+        "name": "Screen brightness"
+      },
+      "serial_number": {
+        "name": "Serial number"
+      },
+      "stats": {
+        "name": "Statistics"
+      },
+      "time_format": {
+        "name": "Time format"
+      },
+      "time_zone": {
+        "name": "Time zone"
+      },
+      "total_cups": {
+        "name": "Total cups"
+      },
+      "wake_drink": {
+        "name": "Wake-up drink"
+      },
+      "waste_bin_count": {
+        "name": "Waste bin"
+      },
+      "waste_bin_level": {
+        "name": "Waste bin level"
+      },
+      "drip_tray": {
+        "name": "Drip tray"
+      },
+      "rinse_milk": {
+        "name": "Rinse milk"
+      },
+      "water_filter": {
+        "name": "Water filter"
+      },
+      "water_hardness": {
+        "name": "Water hardness"
+      },
+      "wifi_signal": {
+        "name": "WiFi signal"
+      },
+      "wifi_ssid": {
+        "name": "WiFi network"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "domain": "terra_kaffe",
+  "name": "Terra Kaffe",
+  "version": "0.0.1",
+  "bluetooth": [
+    {
+      "connectable": true
+    }
+  ],
+  "codeowners": ["@daniel"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://www.home-assistant.io/integrations/terra_kaffe",
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "loggers": ["terra_kaffe"],
+  "requirements": []
+}
+
